@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Sarala&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Sarala', sans-serif;
+}
+
+header, main, footer {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+header, footer {
+    border: 1px solid #bcd;
+    padding: .5rem;
+    background: rgb(98,18,54);
+    background: linear-gradient(90deg, rgba(98,18,54,1) 0%, rgba(137,2,62,1) 28%, rgba(255,0,113,1) 100%);
+    border-radius: 15px;
+}
+
+
+
+header img {
+    float: right;
+    width: 180px;
+    margin-right: .3rem;
+    margin-top: .4rem;
+    box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.44);
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+
+hr {s
+    margin: 5px;
+    border-width: 1px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
+
+body a {
+    color:#EA638C;
+  }
+
+body a:hover {
+    color: #FFB703;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #FFB703;
+}
+
